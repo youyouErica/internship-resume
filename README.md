@@ -53,17 +53,20 @@ VITE_FORM_ENDPOINT=https://formsubmit.co/ajax/你的新邮箱@example.com
 
 ## 部署到 GitHub Pages（免费，推荐）
 
-**线上地址：** https://youyouErica.github.io/internship-resume/
+**线上地址：** https://xieshuang.github.io/
 
 推送 `main` 分支后，GitHub Actions 会自动构建并发布（见 `.github/workflows/deploy-pages.yml`）。
 
-### 首次开启（只需做一次）
+### 前置条件（重要）
 
-1. 打开仓库 https://github.com/youyouErica/internship-resume  
-2. **Settings** → 左侧 **Pages**  
-3. **Build and deployment** → **Source** 选 **GitHub Actions**（不要选 Buy domain）  
-4. 保存后，到 **Actions** 标签页，等最新 “Deploy to GitHub Pages”  workflow 跑绿  
-5. 再回到 **Settings → Pages**，会显示站点 URL
+1. GitHub **用户名**必须是 `xieshuang`（与网址一致）。若当前是其他用户名，请到 [GitHub 账号设置](https://github.com/settings/admin) 修改 Username（需未被占用）。
+2. 仓库名必须是 **`xieshuang.github.io`**（在仓库 **Settings → General → Repository name** 里改名）。
+
+### 首次开启 Pages（只需做一次）
+
+1. 打开仓库 **Settings** → **Pages**
+2. **Source** 选 **GitHub Actions**
+3. 到 **Actions** 等 “Deploy to GitHub Pages” 跑绿
 
 ### 更新网站
 
@@ -75,7 +78,7 @@ git push
 
 ## 部署到 Vercel（可选）
 
-若已部署，可使用 `https://internship-resume.vercel.app/`。与 GitHub Pages 二选一或同时保留均可。
+若曾部署 Vercel，可停用；以 GitHub Pages 为准即可。
 
 ## 项目结构
 
