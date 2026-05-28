@@ -1,4 +1,4 @@
-# 谢双 · 个人作品集网站
+# 个人作品集网站
 
 基于 Vite + React + TypeScript + Tailwind CSS 的单页作品集，用于展示简历信息与联系互动。
 
